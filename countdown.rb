@@ -10,7 +10,5 @@ def countdown(num)
 end
 
 def countdown_with_sleep(num_sec)
-  while num_sec > 0
-    num_sec -= 1
-  end
+  sleep(num_sec)
 end
